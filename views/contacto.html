@@ -12,34 +12,47 @@
       <nav class="nav-bar">
         <ul class="nav-bar__nav-list">
           <li class="nav-bar__nav-item">
-            <a href="../index.html" class="nav-bar__nav-link">Inicio</a>
+            <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
           </li>
           <li class="nav-bar__nav-item">
-            <a href="#" class="nav-bar__nav-link">Alta</a>
+            <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
           </li>
           <li class="nav-bar__nav-item">
-            <a href="./nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+            <a href="/views/nosotros.html" class="nav-bar__nav-link"
+              >Nosotros</a
+            >
           </li>
           <li class="nav-bar__nav-item">
-            <a href="#" class="nav-bar__nav-link">Contacto</a>
+            <a href="/views/contacto.html" class="nav-bar__nav-link"
+              >Contacto</a
+            >
           </li>
         </ul>
       </nav>
-    <!-- .nav-bar -->
+      <!-- .nav-bar -->
 
-     <div class="search-bar">
-        <div class="search-bar__logo-container"><img
+      <div class="search-bar">
+        <div class="search-bar__logo-container">
+          <img
             class="search-bar__logo-img"
-            src="/img/Modern_Technology___Gaming_Logo-removebg-preview.png"
+            src="/img/logo-banner.png"
             alt="Logo de Game Master"
             title="Game Master"
-          /></div>
+          />
+        </div>
         <form action="#" class="search-bar__form-container">
-          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <!-- <label for="busqueda" class="search-bar__form-label">Buscar</label> -->
           <input type="search" class="search-bar__form-search" id="busqueda" />
           <input type="submit" class="search-bar__form-submit" value="Buscar" />
         </form>
-        <div class="search-bar__carrito-container">C</div>
+        <div class="search-bar__carrito-container">
+          <a href="#"
+            ><img
+              class="search-bar__carrito-img"
+              src="/img/cart-shopping-solid.svg"
+              alt=""
+          /></a>
+        </div>
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
             <span class="menu-toogle__top-bread"></span>
@@ -48,78 +61,92 @@
           </label>
         </div>
       </div>
-    <!-- .search-bar -->
-
-    <!-- </header> -->
-
+      <!-- .search-bar -->
+    </header>
     <!-- main-header -->
+    <main>
+      <section class="hero">
+        <h1>Contáctanos</h1>
+      </section>
 
-    <section class="hero">
-      <h1>Contactanos</h1>
-    </section>
+      <section class="contact-cards lo-que-hacemos">
+        <div class="servicios">
+          <div class="servicio">
+            <img class="svg" src="/img/phone-solid.svg" alt="" />
+            <h3>0800-123-4567</h3>
+            <p>
+              ¿Necesitas ayuda con tus videojuegos? Llama gratis al numero
+              brindado para asesoría personalizada
+            </p>
+            <a href="/index.html" class="boton-gris">Aprende más</a>
+          </div>
+          <div class="servicio">
+            <img class="svg" src="/img/envelope-solid.svg" alt="" />
+            <h3>help@gamemaster.com</h3>
+            <p>
+              ¡Sumérgete en el juego perfecto! Escríbenos y desata todo el
+              potencial de tu experiencia de juego.
+            </p>
+            <a href="#" class="boton-gris">Aprende más</a>
+          </div>
+          <div class="servicio">
+            <img class="svg-2" src="/img/location-dot-solid.svg" alt="" />
+            <h3>Servicio al Cliente de Primera Clase</h3>
+            <p>
+              Encuéntranos en nuestro local principal: Av. Gamer 123, San Miguel
+              de Tucuman. ¡Visítanos y déjate llevar por el mundo de los
+              videojuegos!
+            </p>
+            <a href="#" class="boton-gris">Aprende más</a>
+          </div>
+        </div>
+      </section>
 
-    <section class="contact-cards">
-      <div class="card">
-        <h2>+(654) 6455 654</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Learn More →</a>
-      </div>
-      <div class="card">
-        <h2>mail@txtils.com</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Learn More →</a>
-      </div>
-      <div class="card">
-        <h2>London Eye, UK</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">Learn More →</a>
-      </div>
-    </section>
+      <section class="contact-form">
+        <h2>Contáctanos</h2>
+        <form>
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Numero" />
+          <input type="text" placeholder="Nombre" />
+          <textarea placeholder="Texto" cols="30" rows="10"></textarea>
+          <button class="boton-gris">Enviar</button>
+        </form>
+      </section>
 
-    <section class="contact-form">
-      <h2>Get In Touch</h2>
-      <form>
-        <input type="email" placeholder="Email" />
-        <input type="tel" placeholder="Phone" />
-        <input type="text" placeholder="Name" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Submit Button</button>
-      </form>
-    </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d28483.67312626012!2d-65.21605641015626!3d-26.825345097763748!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1717885808381!5m2!1ses-419!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
 
-    <section class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.862915615781!2d-73.93524248459987!3d40.73061027932916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18c7e717%3A0xe0c3b5d2b3d0a8e5!2sLondon%20Eye!5e0!3m2!1sen!2suk!4v1598956953554!5m2!1sen!2suk"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
-    </section>
-
-    <section class="newsletter">
-      <h2>Our Newsletters</h2>
-      <form>
-        <input type="email" placeholder="Email" />
-        <button type="submit">Submit Button</button>
-      </form>
-    </section>
+      <section class="newsletter">
+        <h2>Nuestro Newsletter</h2>
+        <form>
+          <input type="email" placeholder="Email" />
+          <button class="boton-naranja">Enviar</button>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
       <div class="footer-content">
         <div class="footer-logo">
-          <img class="footer-img" src="/img/game-master-logo.webp" alt="" />
+          <img class="footer-img" src="/img/logo.webp" alt="" />
         </div>
         <div class="footer-nav">
-          <h3>Navigation</h3>
+          <h3>Navegación</h3>
           <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./alta.html">Alta</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/views/alta.html">Alta</a></li>
+            <li><a href="/views/nosotros.html">Nosotros</a></li>
+            <li><a href="/views/contacto.html">Contacto</a></li>
           </ul>
         </div>
       </div>
