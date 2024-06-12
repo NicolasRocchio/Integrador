@@ -1,5 +1,5 @@
-$color-primario: #333;
-$color-secundario: #444;
+$color-primario: #010c22;
+$color-secundario: #002266;
 $color-acentuacion: #ffa500;
 $color-blanco: #fff;
 
@@ -9,16 +9,22 @@ footer {
   padding: 50px 0;
 
   .footer-img {
-    width: 200px;
+    width: 15em;
+    margin-top: -3rem;
   }
 
+  .footer-nav {
+    padding-left: 2.5rem;
+    border-left: 2px solid $color-secundario;
+  }
   .footer-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
 
     h3 {
       margin-top: 0;
+      padding-bottom: 1rem;
     }
 
     ul {
