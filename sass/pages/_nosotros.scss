@@ -72,12 +72,28 @@ body {
 
     img {
       width: 50%;
-      margin-top: 20px;
+      height: auto;
+
+      &:nth-child(1) {
+        margin-top: 200px;
+      }
+
+      &:nth-child(2) {
+        margin-top: 100px;
+      }
+
+      &:nth-child(3) {
+        margin-top: 100px;
+      }
+
+      &:nth-child(4) {
+        margin-top: 100px;
+      }
     }
   }
 }
 
-@media (max-width: 574px) {
+@media (max-width: 576px) {
   .nosotros .container .imagenes {
     display: flex;
     flex-direction: column;
@@ -85,13 +101,29 @@ body {
     margin-left: 0;
 
     img {
-      width: 70%;
-      margin-top: 20px;
+      width: 100%;
+      height: auto;
+
+      &:nth-child(1) {
+        margin-top: 300px;
+      }
+
+      &:nth-child(2) {
+        margin-top: 300px;
+      }
+
+      &:nth-child(3) {
+        margin-top: 300px;
+      }
+
+      &:nth-child(4) {
+        margin-top: 500px;
+      }
     }
   }
 }
 
-.lo-que-hacemos {
+.what-we-do {
   padding: 50px 0;
   text-align: center;
 
@@ -100,13 +132,13 @@ body {
     margin-bottom: 30px;
   }
 
-  .servicios {
+  .services {
     display: flex;
     justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
 
-    .servicio {
+    .service {
       background: #fff;
       padding: 20px;
       flex: 1;
@@ -125,26 +157,42 @@ body {
       }
     }
 
-    .servicio:nth-child(1) {
+    .service:nth-child(1) {
       background-image: linear-gradient(to bottom right, #ff7e5f, #feb47b);
     }
 
-    .servicio:nth-child(2) {
+    .service:nth-child(2) {
       background-image: linear-gradient(to bottom right, #00b894, #55efc4);
     }
 
-    .servicio:nth-child(3) {
+    .service:nth-child(3) {
       background-image: linear-gradient(to bottom right, #0984e3, #74b9ff);
     }
   }
 }
+@media (max-width: 576px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
 
-.contacto {
+    .service {
+      max-width: 80%;
+    }
+    .service:nth-child(1) {
+      margin-bottom: 30px;
+    }
+    .service:nth-child(2) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.contact {
   color: #fff;
   padding: 50px 0;
   text-align: center;
 
-  .contacto-contenido {
+  .contact-content {
     max-width: 600px;
     margin: 0 auto;
 
