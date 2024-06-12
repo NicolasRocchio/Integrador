@@ -1,4 +1,4 @@
-.boton-naranja {
+.button-orange {
   padding: 10px 20px;
   border: none;
   background-color: #ffa500;
@@ -7,7 +7,7 @@
   border-radius: 5px;
   text-decoration: none;
 }
-.boton-gris {
+.button-grey {
   padding: 10px 20px;
   border: none;
   background-color: #333;
@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 @media (max-width: 596px) {
-  .boton-gris {
+  .button-grey {
     padding: 5px 10px;
     font-size: 15px;
   }
