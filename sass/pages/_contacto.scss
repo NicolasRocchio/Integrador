@@ -16,7 +16,7 @@ body {
   background-image: linear-gradient(to bottom right, #29d5d6 0%, #e21cee 100%);
 }
 
-.titulo {
+.title {
   text-align: center;
   padding: 100px 0;
   color: $white-color;
@@ -78,14 +78,20 @@ body {
 }
 
 .map {
-  text-align: center;
-  padding: 50px 0;
-  /* completar */
-}
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-@media (max-width: 574px) {
-  .map {
-    width: 200px;
+  &__iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+
+    @media (max-width: 576px) {
+      width: 70%;
+      height: 400px;
+    }
   }
 }
 
@@ -107,6 +113,11 @@ body {
       margin-right: 10px;
       border: 1px solid #ccc;
       border-radius: 5px;
+
+      @media (max-width: 576px) {
+        margin-left: 100px;
+        width: 50%;
+      }
     }
   }
 }
