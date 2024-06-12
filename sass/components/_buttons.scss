@@ -16,3 +16,9 @@
   border-radius: 5px;
   text-decoration: none;
 }
+@media (max-width: 596px) {
+  .boton-gris {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
