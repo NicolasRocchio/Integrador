@@ -6,7 +6,7 @@
     <title>Proyecto Integrador - Alta</title>
   </head>
   <body>
-    <h1>Proyecto Integrador - Alta</h1>
+    <h1 hidden>Proyecto Integrador - Alta</h1>
 
     <header class="main-header">
       <input type="checkbox" id="menu" />
@@ -17,7 +17,7 @@
             <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
           </li>
           <li class="nav-bar__nav-item">
-            <a href="views/alta.html" class="nav-bar__nav-link">Alta</a>
+            <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
           </li>
           <li class="nav-bar__nav-item">
             <a href="/views/nosotros.html" class="nav-bar__nav-link"
@@ -37,17 +37,24 @@
         <div class="search-bar__logo-container">
           <img
             class="search-bar__logo-img"
-            src="/img/Modern_Technology___Gaming_Logo-removebg-preview.png"
+            src="/img/logo-banner.png"
             alt="Logo de Game Master"
             title="Game Master"
           />
         </div>
         <form action="#" class="search-bar__form-container">
-          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <!-- <label for="busqueda" class="search-bar__form-label">Buscar</label> -->
           <input type="search" class="search-bar__form-search" id="busqueda" />
           <input type="submit" class="search-bar__form-submit" value="Buscar" />
         </form>
-        <div class="search-bar__carrito-container">C</div>
+        <div class="search-bar__carrito-container">
+          <a href="/views/carrito.html"
+            ><img
+              class="search-bar__carrito-img"
+              src="/img/cart-shopping-solid.svg"
+              alt=""
+          /></a>
+        </div>
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
             <span class="menu-toogle__top-bread"></span>
@@ -58,32 +65,22 @@
       </div>
       <!-- .search-bar -->
     </header>
+    <!-- main-header -->
 
-    <main>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </main>
+    <main></main>
 
+    <!-- footer -->
     <footer>
       <div class="footer-content">
         <div class="footer-logo">
-          <img class="footer-img" src="/img/game-master-logo.webp" alt="" />
+          <img class="footer-img" src="/img/logo.webp" alt="" />
         </div>
         <div class="footer-nav">
-          <h3>Navegacion</h3>
+          <h3>Navegación</h3>
           <ul>
             <li><a href="/index.html">Inicio</a></li>
             <li><a href="/views/alta.html">Alta</a></li>
+            <li><a href="/views/carrito.html">Carrito</a></li>
             <li><a href="/views/nosotros.html">Nosotros</a></li>
             <li><a href="/views/contacto.html">Contacto</a></li>
           </ul>
